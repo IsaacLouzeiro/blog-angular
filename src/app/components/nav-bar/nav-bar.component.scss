@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
+
+.navbar {
+  padding-bottom: 5rem;
+  border-bottom: 2px solid;
+
+  .container {
+    font-weight: bold;
+
+    .navbar-brand {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1.5rem;
+
+      i {
+        font-size: 2rem;
+        margin-right: .2rem;
+      }
+
+      span {
+        font-family: 'Fondamento', cursive;
+        margin-left: .3rem;
+      }
+
+      @media only screen and (max-width: 997px) {
+        display: flex;
+      }
+    }
+
+    .navbar-desktop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      div {
+        display: flex;
+
+        .navbar-brand {
+          display: flex;
+        }
+
+        .navbar-nav {
+          list-style-type: none;
+          display: flex;
+
+          li {
+            margin: 0 .8rem;
+
+            a {
+              display: inline-block;
+              padding: .5rem;
+            }
+          }
+        }
+      }
+
+      .user-content {
+        max-width: 3rem;
+        display: inline-block;
+
+        .content-img {
+          display: inline-block;
+          width: 3rem;
+          height: 3rem;
+          border-radius: 1.5rem;
+          overflow: hidden;
+
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 997px) {
+        display: none;
+      }
+    }
+
+    .navbar-mobile {
+      display: none;
+      position: relative;
+
+      .navbar-toggler {
+        border: none;
+        cursor: pointer;
+        display: none;
+
+        i {
+          font-size: 2rem;
+
+          &.bx-menu {
+            display: block;
+          }
+
+          &.bx-x {
+            display: none;
+          }
+        }
+
+        @media only screen and (max-width: 997px) {
+          display: inline-block;
+        }
+      }
+
+      .navbar-nav {
+        display: block;
+        width: 100%;
+        position: absolute;
+        padding-top: .5rem;
+        top: 100%;
+        list-style-type: none;
+        border-bottom: 2px solid;
+
+        li {
+          margin: .5rem 0;
+          border: 1px solid #ddd;
+
+          a {
+            display: block;
+            padding: .8rem;
+
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.1);
+            }
+          }
+        }
+      }
+
+      @media only screen and (max-width: 997px) {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        overflow: hidden;
+      }
+
+    }
+
+    input[type=checkbox] {
+      display: none;
+
+      &:checked ~ .navbar-mobile {
+        overflow: visible;
+
+        .navbar-toggler {
+          i {
+            &.bx-menu {
+              display: none;
+            }
+
+            &.bx-x {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 997px) {
+    padding-bottom: 3rem;
+  }
+}
