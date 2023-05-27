@@ -11,3 +11,11 @@ $color-txt: #131a28;
   color: $color-txt;
   font-family: 'Roboto', sans-serif;
 }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    opacity: .9;
+  }
+}
