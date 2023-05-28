@@ -13,6 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { MenubarFooterComponent } from './components/menubar-footer/menubar-footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
     HomeComponent,
     PaginationComponent,
     FooterComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    MenubarFooterComponent
   ],
   imports: [
     BrowserModule,
