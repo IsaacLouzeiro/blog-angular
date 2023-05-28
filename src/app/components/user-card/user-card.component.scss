@@ -1,0 +1,31 @@
+.user-card {
+  display: inline-block;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    .content-img {
+      display: inline-block;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1.5rem;
+      overflow: hidden;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .content-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: .8rem;
+
+      .username {
+        font-weight: bold;
+      }
+    }
+  }
+}
