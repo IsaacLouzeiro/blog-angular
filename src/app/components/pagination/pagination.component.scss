@@ -1,0 +1,74 @@
+@import '../../../styles.scss';
+
+.pagination-component {
+  border-top: 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+
+  button {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .left-btn,
+  .right-btn {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 1rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+
+      span {
+        font-size: .7rem;
+      }
+    }
+  }
+
+  .pagination-box-btn {
+    ul {
+      list-style-type: none;
+      display: flex;
+
+      li {
+        margin: .5rem;
+
+        button {
+          font-size:.8rem;
+          padding: .8rem 1.1rem;
+          border-radius: .15rem;
+          border: 1px solid transparent;
+
+          &.active {
+            background-color: $color-txt;
+            color: $color-bg;
+
+            &:hover {
+              border-color: transparent;
+            }
+          }
+
+          &:hover {
+            border: 1px solid;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      li {
+        button {
+          font-size:.7rem;
+          padding: .3rem .6rem!important;
+        }
+      }
+    }
+  }
+}

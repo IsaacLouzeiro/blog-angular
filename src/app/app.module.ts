@@ -10,6 +10,7 @@ import { CommonCardComponent } from './components/common-card/common-card.compon
 import { UserCardComponent } from './components/user-card/user-card.component';
 import { AsideComponent } from './components/aside/aside.component';
 import { HomeComponent } from './pages/home/home.component';
+import { PaginationComponent } from './components/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './pages/home/home.component';
     CommonCardComponent,
     UserCardComponent,
     AsideComponent,
-    HomeComponent
+    HomeComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
