@@ -1,3 +1,48 @@
 .footer-component {
   border-top: 2px solid;
+
+  .bottom-content {
+    border-top: 2px solid;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      font-size: 1.1rem;
+    }
+
+    .box-social {
+      a {
+        font-size: 2rem;
+        margin-left: 1rem;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      span {
+        font-size: 1rem;
+      }
+
+      .box-social {
+        a {
+          font-size: 1.5rem;
+          margin-left: .5rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 450px) {
+      padding-bottom: .5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      span {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
 }
