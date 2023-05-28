@@ -1,0 +1,63 @@
+.common-card {
+  border-top: 2px solid;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem .5rem;
+
+  .img-content {
+    img {
+      width: 100%;
+    }
+  }
+
+  .writing-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+
+    h2 {
+      font-size: 1.5rem;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      i {
+        display: inline-block;
+        background-color: transparent;
+        transform: rotate(150deg);
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      margin: .5rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 997px) {
+    .writing-content {
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    padding: 2rem 0;
+
+    .writing-content {
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        margin: .5rem 0 1.5rem 0;
+      }
+    }
+  }
+}
