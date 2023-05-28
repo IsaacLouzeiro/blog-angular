@@ -5,6 +5,8 @@
   padding: 2rem .5rem;
 
   .img-content {
+    max-height: 268px;
+    overflow: hidden;
     img {
       width: 100%;
     }
