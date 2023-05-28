@@ -1,0 +1,88 @@
+.testimonial-component {
+  padding: 9rem 0;
+  text-align: center;
+
+  p {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  .user-block {
+    display: inline-block;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .content-img {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 2rem;
+        overflow: hidden;
+        margin-top: 1.5rem;
+        margin-bottom: .7rem;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      span {
+        display: inline-block;
+        padding: .3rem 0;
+        font-size: 1.2rem;
+
+        &.name {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1150px) {
+    padding: 4rem 0;
+
+    p {
+      font-size: 2.4rem;
+    }
+  }
+
+  @media only screen and (max-width: 997px) {
+    p {
+      font-size: 2rem;
+    }
+
+    .user-block {
+      div {
+        .content-img {
+          width: 3.5rem;
+          height: 3.5rem;
+          margin-top: 1.5rem;
+          margin-bottom: .7rem;
+        }
+
+        span {
+          padding: .2rem 0;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    p {
+      font-size: 1.7rem;
+      margin: .5rem 0;
+    }
+
+    .user-block {
+      div {
+        .content-img {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+  }
+}
