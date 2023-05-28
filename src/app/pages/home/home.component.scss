@@ -6,6 +6,7 @@
   div {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-top: 2rem;
 
     main {
       padding-right: 1rem;
@@ -17,6 +18,10 @@
 
     @media only screen and (max-width: 997px) {
       grid-template-columns: 1fr;
+
+      main {
+        padding: 0;
+      }
 
       aside {
         display: none;
