@@ -11,6 +11,8 @@ import { UserCardComponent } from './components/user-card/user-card.component';
 import { AsideComponent } from './components/aside/aside.component';
 import { HomeComponent } from './pages/home/home.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PaginationComponent } from './components/pagination/pagination.componen
     UserCardComponent,
     AsideComponent,
     HomeComponent,
-    PaginationComponent
+    PaginationComponent,
+    FooterComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
