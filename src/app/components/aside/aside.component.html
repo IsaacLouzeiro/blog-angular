@@ -1,1 +1,10 @@
-<p>aside works!</p>
+<div class="aside-content">
+  <ul>
+    <li
+      *ngFor="let item of themeList; let i = index"
+      [ngClass]="item.target"
+    >
+      <span href="#" (click)="turnActive(i, item.name, item.target)">{{ item.name }}</span>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,23 @@
+.aside-content {
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 1rem .5rem;
+      border-left: 3px solid #ddd;
+      transition: all 0.5s ease-in-out;
+
+      &.active {
+        border-color: #333;
+      }
+
+      span {
+        cursor: pointer;
+
+        &:hover {
+          opacity: .87;
+        }
+      }
+    }
+  }
+}
