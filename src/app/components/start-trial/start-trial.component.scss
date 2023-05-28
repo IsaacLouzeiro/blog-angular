@@ -1,0 +1,84 @@
+@import '../../../styles.scss';
+
+.start-trial-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 0;
+  border-bottom: 2px solid;
+
+  .text-section {
+    span {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.3rem;
+      color: #7b7b7b;
+      margin-top: 1.3rem;
+    }
+  }
+
+  .button-section {
+    .btn {
+      display: inline-block;
+      padding: 1rem 1.3rem;
+      border: 2px solid;
+      font-weight: 900;
+
+      &.learn-more {
+        border-color: #d7d7d7;
+        margin-right: 1rem;
+      }
+
+      &.get-started {
+        border-color: $color-txt;
+        background-color: $color-txt;
+        color: $color-bg;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 997px) {
+    .text-section {
+      span {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-top: .8rem;
+      }
+    }
+
+    .button-section {
+      .btn {
+        padding: .8rem 1rem;
+        font-size: .9rem;
+
+        &.learn-more {
+          margin-right: .8rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid;
+
+    .text-section {
+      width: 100%;
+      padding-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .button-section {
+      .btn {
+        margin: .2rem;
+      }
+    }
+  }
+}

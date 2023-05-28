@@ -14,6 +14,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { MenubarFooterComponent } from './components/menubar-footer/menubar-footer.component';
+import { StartTrialComponent } from './components/start-trial/start-trial.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MenubarFooterComponent } from './components/menubar-footer/menubar-foot
     PaginationComponent,
     FooterComponent,
     TestimonialComponent,
-    MenubarFooterComponent
+    MenubarFooterComponent,
+    StartTrialComponent
   ],
   imports: [
     BrowserModule,
