@@ -10,6 +10,11 @@
 
     main {
       padding-right: 1rem;
+
+      .common-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     aside {
@@ -25,6 +30,18 @@
 
       aside {
         display: none;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      padding-top: 0;
+      
+      main {
+        padding-right: 1rem;
+
+        .common-card {
+          grid-template-columns: 1fr;
+        }
       }
     }
   }
