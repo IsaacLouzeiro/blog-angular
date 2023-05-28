@@ -35,9 +35,9 @@
 
     @media only screen and (max-width: 768px) {
       padding-top: 0;
-      
+
       main {
-        padding-right: 1rem;
+        padding-right: 0;
 
         .common-card {
           grid-template-columns: 1fr;
