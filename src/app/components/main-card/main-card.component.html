@@ -1,13 +1,13 @@
 <div class="main-card">
   <div class="img-content">
-    <a href="#">
+    <a [routerLink]="['content', Id]">
       <img src="{{ photoCover }}" alt="Cover photo" title="{{ creditPhoto }}">
     </a>
   </div>
 
   <div class="writing-content">
-    <h2><a href="#"><span>{{cardTitle }}</span> <i class='bx bx-arrow-back'></i></a></h2>
-    <p><a href="#">{{ cardDescription }}</a></p>
+    <h2><a [routerLink]="['content', Id]"><span>{{cardTitle }}</span> <i class='bx bx-arrow-back'></i></a></h2>
+    <p><a [routerLink]="['content', Id]">{{ cardDescription }}</a></p>
 
     <app-user-card imglink="{{ userImgLink }}" username="{{ username }}" postdate="{{ postdate }}"></app-user-card>
   </div>
