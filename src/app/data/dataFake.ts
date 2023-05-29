@@ -4,6 +4,7 @@ export const dataFake = [
     "photo": "https://miro.medium.com/v2/resize:fit:720/0*agrh5zAuqtHk41yN",
     "credit_photo": "Photo by Shubham Dhage on Unsplash",
     "title": "Blockchain: O que é e como funciona? (Direto ao Ponto)",
+    "description_alt": "Blockchain é uma cadeia de dados em blocos que transitam em uma ‘‘rede transparente’’, onde é possível que elementos passem por essa",
     "description": `Blockchain é uma cadeia de dados em blocos que transitam em uma ‘‘rede transparente’’, onde é possível que elementos passem por essa rede descentralizada de uma forma segura e que seja possível visualizar o que está acontecendo em cada transação. Basicamente um banco de dados mais sofisticado que não permite que os dados sejam copiados ou alterados na rede.
 
 Imutabilidade: A Informação que é armazenada nesta rede não pode ser alterada e é permanente, já que para que seja feito alguma alteração será necessário que todos que mantém a rede funcionando estejam de acordo com a mudança. Bem, para ficar claro, essa rede é uma cadeia de blocos de informação conectadas por uma criptografia gerada por vários computadores ao redor do mundo através de mineração.
@@ -29,6 +30,7 @@ Bônus: NFT é a sigla para “Token Não-Fungível”, que é uma forma de repr
     "photo": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*VKdR33uzNVJuE1zL_LQbcw.png",
     "credit_photo": "Photo by Choong Deng Xiang on Unsplash",
     "title": "NFT: O que é, como funciona e como comprar? (Direto ao ponto)",
+    "description_alt": "NFT é uma abreviação de Not Fungible Token (Token Não Fungível em português). Isso quer dizer que esse Ativo Digital é imerso em uma",
     "description": `NFT é uma abreviação de Not Fungible Token (Token Não Fungível em português). Isso quer dizer que esse Ativo Digital é imerso em uma rede descentralizada chamada Blockchain e, portanto, não pode ser duplicada nem copiada. Mas acho que ainda não está claro para você o que é e pra que serve isso, então vamos lá.
 
 Irei explicar brevemente o que é a Blockchain e será mais fácil de compreender, já que a mágica acontece através dessa “Cadeia de Blocos”.
@@ -64,6 +66,7 @@ Já pelo celular é um pouco mais complicado. Você deverá acessar o site da Op
     "photo": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*slcSr1rdFMF7ajpAohmmIg.png",
     "credit_photo": "Photo by regularguy.eth on Unsplash",
     "title": "NFT é apenas arte e pirâmide? Vantagens do NFT na Web 3",
+    "description_alt": "No post anterior falei um pouco sobre o NFT de uma forma resumida. Agora irei um pouco além de mercados de imagens. Vou dizer sobre",
     "description": `No post anterior falei um pouco sobre o NFT de uma forma resumida. Agora irei um pouco além de mercados de imagens. Vou dizer sobre quais são as vantagens de possuir ou criar um NFT, e também as desvantagens e os cuidados a serem tomados nesse meio digital. Começarei sobre os NFTs colecionáveis e assim por diante.
 
 NFT colecionáveis: O que são? Vantagens e desvantagens
@@ -109,6 +112,7 @@ Rug Pull é um golpe muito comum no mundo das criptomoedas e NFTs, onde os crimi
     "photo": "https://pixabay.com/get/g88bf24dab8a348a5cbda94e5c949e26561270f240486e7eb67bba59054307d34cdb4baff7a19975e51f8ebf311ab1e64e7206172d6e6bd2ac049c8f59ad2124f02ae52139f437e7a41f1adf42aca1299_640.jpg",
     "credit_photo": "Photo by Internet",
     "title": "Existe uma melhor forma para a criação de um website?",
+    "description_alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor ipsum in ex porta fringilla. Mauris placerat sapien ut",
     "description": `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor ipsum in ex porta fringilla. Mauris placerat sapien ut nisl scelerisque, auctor efficitur elit tristique. Sed eu lacus orci. Nam tempor velit nec orci efficitur, eget tristique nisi tristique. Curabitur fringilla justo sed metus laoreet, id molestie arcu placerat. Donec nec lectus eu diam semper viverra ac quis erat.
 
 Ut a dui eget nisl ultrices facilisis vitae luctus purus. In quis leo placerat, pellentesque nulla id, dictum est. Vivamus sed neque commodo, finibus urna ac, tincidunt ex. Aenean id dignissim nunc. Duis id massa nec leo egestas fermentum. Morbi ut risus sapien.
