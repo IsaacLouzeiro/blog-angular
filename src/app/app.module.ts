@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { MenubarFooterComponent } from './components/menubar-footer/menubar-footer.component';
 import { StartTrialComponent } from './components/start-trial/start-trial.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StartTrialComponent } from './components/start-trial/start-trial.compon
     FooterComponent,
     TestimonialComponent,
     MenubarFooterComponent,
-    StartTrialComponent
+    StartTrialComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

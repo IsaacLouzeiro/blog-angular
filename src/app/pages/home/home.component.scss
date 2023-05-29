@@ -1,47 +1,41 @@
-.container {
-  max-width: 1440px;
-  margin: auto;
-  padding: 1em;
+div {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding-top: 2rem;
 
-  div {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    padding-top: 2rem;
+  main {
+    padding-right: 1rem;
+
+    .common-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  aside {
+    padding-left: 1rem;
+  }
+
+  @media only screen and (max-width: 997px) {
+    grid-template-columns: 1fr;
 
     main {
-      padding-right: 1rem;
-
-      .common-card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-      }
+      padding: 0;
     }
 
     aside {
-      padding-left: 1rem;
+      display: none;
     }
+  }
 
-    @media only screen and (max-width: 997px) {
-      grid-template-columns: 1fr;
+  @media only screen and (max-width: 768px) {
+    padding-top: 0;
 
-      main {
-        padding: 0;
-      }
+    main {
+      padding-right: 0;
 
-      aside {
-        display: none;
-      }
-    }
-
-    @media only screen and (max-width: 768px) {
-      padding-top: 0;
-
-      main {
-        padding-right: 0;
-
-        .common-card {
-          grid-template-columns: 1fr;
-        }
+      .common-card {
+        grid-template-columns: 1fr;
       }
     }
   }
