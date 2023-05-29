@@ -1,1 +1,41 @@
-<p>content works!</p>
+<div class="blog-content">
+  <div class="info-block">
+    <h2>{{ contentTitle }}</h2>
+
+    <app-user-card
+      userlink="/content"
+      imglink="{{ userImgLink }}"
+      username="{{ username }}"
+      postdate="{{ postdate }}"
+    ></app-user-card>
+
+    <div class="react-block">
+      <a (click)="changeReaction()"><i class='bx {{ loveReaction }}'></i></a>
+      <a routerLink="/content"><i class='bx bx-comment'></i></a>
+    </div>
+  </div>
+
+  <div class="writer-section">
+    <div class="content-img">
+      <img src="{{ contentPhoto }}" alt="Illustrative image">
+      <small>{{ creditPhoto }}</small>
+    </div>
+
+    <p>
+      {{ contentDescription }}
+    </p>
+  </div>
+
+  <div class="react-block">
+    <a (click)="changeReaction()"><i class='bx {{ loveReaction }}'></i></a>
+    <a routerLink="/content"><i class='bx bx-comment'></i></a>
+  </div>
+
+  <div class="written-by">
+    <div class="user-img">
+      <img src="{{ userImgLink }}" alt="User image">
+    </div>
+    <span class="title">Written by {{ username }}</span>
+    <span class="date">{{ postdate }}</span>
+  </div>
+</div>
