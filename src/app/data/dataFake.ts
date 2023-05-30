@@ -109,7 +109,7 @@ Rug Pull é um golpe muito comum no mundo das criptomoedas e NFTs, onde os crimi
   },
   {
     "id": "4",
-    "photo": "https://pixabay.com/get/g88bf24dab8a348a5cbda94e5c949e26561270f240486e7eb67bba59054307d34cdb4baff7a19975e51f8ebf311ab1e64e7206172d6e6bd2ac049c8f59ad2124f02ae52139f437e7a41f1adf42aca1299_640.jpg",
+    "photo": "https://github.com/IsaacLouzeiro/My-Codepen-Database-Images/blob/master/technology-g8dfec580f_640.jpg?raw=true",
     "credit_photo": "Photo by Internet",
     "title": "Existe uma melhor forma para a criação de um website?",
     "description_alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porttitor ipsum in ex porta fringilla. Mauris placerat sapien ut",
