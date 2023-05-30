@@ -10,7 +10,7 @@
 
 ### -- About
 
-Project about a Blog based on Dribbble layout by Jordan Huges. Fully responsive, developed for practice my abilities with Angular.
+A blog project created with Angular based on Dribbble layout by Jordan Huges. Fully responsive, developed for practice my abilities with Angular.
 
 ### -- Links
 
@@ -35,7 +35,7 @@ Project about a Blog based on Dribbble layout by Jordan Huges. Fully responsive,
 
 ### -- Sobre
 
-Projeto sobre um Blog baseado em um design do Jordan Hughes no Dribbble, totalmente responsivo, desenvolvido para treinar minhas hablidades com Angular.
+Projeto de um Blog criado com Angular baseado em um design do Jordan Hughes no Dribbble. Totalmente responsivo, desenvolvido para treinar minhas hablidades com Angular.
 
 ### -- Links
 
